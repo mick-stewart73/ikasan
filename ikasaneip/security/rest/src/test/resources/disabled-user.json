@@ -1,9 +1,0 @@
-{
-  "username": "disabledUser",
-  "email": "test@test.com",
-  "firstName": "TestName",
-  "surname": "TestSurname",
-  "department": "department",
-  "enabled": false
-
-}

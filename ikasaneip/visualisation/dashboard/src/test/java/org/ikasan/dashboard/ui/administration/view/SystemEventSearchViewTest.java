@@ -201,8 +201,6 @@ public class SystemEventSearchViewTest extends UITest {
             .getField(systemEventDialog, "actionedByTf")).getValue());
         Assert.assertEquals("murex-trade-tradeConsumer", ((TextField)ReflectionTestUtils
             .getField(systemEventDialog, "contextTf")).getValue());
-        Assert.assertEquals("24/11/2020 07:39:20.055", ((TextField)ReflectionTestUtils
-            .getField(systemEventDialog, "dateTimeTf")).getValue());
     }
 
     protected IkasanSolrDocumentSearchResults getSolrResults(int size) {
