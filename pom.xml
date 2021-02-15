@@ -55,11 +55,11 @@
     </parent>
 
     <groupId>org.ikasan</groupId>
-    <artifactId>ikasan-parent</artifactId>
+    <artifactId>ikasan-dashboard-parent</artifactId>
     <version>3.2.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Ikasan Projects Parent</name>
-    <description>Ikasan Projects Parent</description>
+    <name>Ikasan Dashboard Parent</name>
+    <description>Ikasan Dashboard Parent</description>
 
     <organization>
       <name>Ikasan</name>
@@ -71,11 +71,6 @@
         <module>ikasaneip</module>
     </modules>
 
-    <!--
-         SCM details
-         TODO: Not sure if this is strictly required here, either this or <distributionManagement> is needed
-         Figure this out when 0.8.1 rolls around
-     -->
     <scm>
         <connection>scm:git:https://github.com/ikasanEIP/ikasan.git</connection>
         <developerConnection>scm:git:https://github.com/ikasanEIP/ikasan.git</developerConnection>

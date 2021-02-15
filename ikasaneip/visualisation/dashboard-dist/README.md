@@ -4,7 +4,7 @@
 
 
 ### Pre-Requisites
-- JRE 8
+- JRE 11
 
 ### Ikasan Dashboard Download
 The Ikasan Dashboard distribution can be downloaded from OSS Nexus.
